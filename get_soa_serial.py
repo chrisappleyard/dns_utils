@@ -24,5 +24,5 @@ parser.add_argument("zone")
 args = parser.parse_args()
 zone = args.zone
 
-serial = get_soa_serial('1.1.1.1', zone)
+serial = get_soa_serial('127.0.0.1', zone)
 print(serial)

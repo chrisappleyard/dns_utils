@@ -20,5 +20,5 @@ function get_soa_serial() {
   echo "$serial_number"
 }
 
-serial=$(get_soa_serial "1.1.1.1" "$zone")
+serial=$(get_soa_serial "127.0.0.1" "$zone")
 echo "$serial"
